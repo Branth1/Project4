@@ -93,7 +93,7 @@ Note: For the following graphs, the specific days and time being analyzed can be
 
 **Earthquake Spectrogram**
 
-![](https://github.com/Branth1/Project4/blob/master/Earthquake.png?raw=true)
+![](https://github.com/Branth1/Project4/blob/master/Earthquake2.png?raw=true)
 
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
@@ -104,7 +104,7 @@ From the analysis conducted, the following conclusions were made:
 
 * One of the main reasons we see different SPD levels between the two sites would have to do with location. It is important to note that the Oregon Shelf site has a depth of 80m while the Oregon Offshore site has a depth of 580m. Although, there may be some inaccuracies in the data as previously discussed, we can clearly see that the Oregon Shelf site ranges for PSD are higher in all cases.
 
-* When comparing the spectrogram's, the airgun was rather tricky to locate. However, it appears to be visible in the image above with a Bandwidth of about 25-75 Hz. The marine mammal vocalization appears a bit higher with a bandwidth of just under 500 and up to about 3500 Hz. The earthquake was attempted to be captured at the time of initiation. According to USGS, a magnitude 4.7 earhquake hit off the Oregon Coast on 4/10/19 at 14:11:31. Trying to compensate for any time difference, the viewable window extends a few seconds in each direction of this time. In it we can see the dissapating bandwidth with the range beginning at 0-100 Hz. The graphs shown have had the ranges adjusted to improve clarity. 
+* When comparing the spectrogram's, the airgun was rather tricky to locate. However, it appears to be visible in the image above with a Bandwidth of about 25-75 Hz. The marine mammal vocalization appears a bit higher with a bandwidth of just under 500 and up to about 3500 Hz. The earthquake was attempted to be captured at the time of initiation. According to USGS, a magnitude 4.7 earhquake hit off the Oregon Coast on 4/10/19 at 14:11:31. Notice, the earthquake is visible in the end of the recording, However, since it was such a large ammount of data, the clarity was reduced to increase speed of procesing. In it we can see the increasing bandwidth with the range of 0-100 Hz and a little more. The graphs shown have had the ranges adjusted to improve clarity. 
 
 * When comparing these values to the Wenz curve shown above, they seem to fit the expected curve and applicable ranges. We can see that earthquakes are expected between 0-100 Hz, marine mammal vocalization is in the higher ranges up into the multiple kHz, and airguns are expected to fit the explosion range of 0-100 Hz to try and reduce impact on marine mammal environment. Although they have higher frequencies which must be addresed, that is beyond the scope of this analysis. Additional information on this topic can be found in references. In addition, we can see that this curve appears to hold true for the weather patterns as well. Wind having the higher frequency and greater spectral density than rain, where rain depends on the sea state.
 
