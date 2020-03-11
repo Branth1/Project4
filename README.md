@@ -50,33 +50,38 @@ First is an attempt to capture Airgun frequency on the Axial Base Seafloor. Seco
 
 **The Data used for analysis is:**
 
-Initial Bulk Data set:
+To view the individual data sets please follow the link above to the colab code. All data links are located in their corresponding sections.
 
-https://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2010-01-01%2000:00:00&endtime=2020-02-22%2023:59:59&maxlatitude=56.472&minlatitude=33.445&maxlongitude=-115.664&minlongitude=-152.93&minmagnitude=2.5&orderby=time
+Note: To determine the time periods of wind and or rain, Project2 was used. The link to this project is found under references below. For each of the 4 different weather requirements, a minimum or 3 consistent hours was first identified. Then a 5 minute window near the middle of the data set was selected for hydrophone data analysis. There may be some discrepencies due to the method of selecting these time windows. Since the previous project had hour time intervals, it is possible that the weather conditions needed are not present at the time of analysis.
 
-Refined Juan De Fuca Plate Data set:
-
-https://earthquake.usgs.gov/fdsnws/event/1/query.csv?starttime=2010-01-01%2000:00:00&endtime=2020-02-22%2023:59:59&maxlatitude=55&minlatitude=40&maxlongitude=-115&minlongitude=-135&minmagnitude=2.5&orderby=time
-
-All Data Was Collected Between Jan 01, 2010 and Feb 22, 2020
+Additionaly, the earthquake data used to determine the time window was found from the USGS website. The link is located in references below.
 
 For additional information on the analysis used please see the link to the code above.
 
 ## Solution/Results
 
-The data was analyzed utilizing the code found in the link above. First the bulk data set was requested, and the magnitude was plotted against time.
+The data was analyzed utilizing the code found in the link above. First the Fourier Transform is taken for 1 second intervals of the raw hydrophone data from each sample set. This is used to calculate the power spectral density using the following equation:
+
+![](https://github.com/Branth1/Project4/blob/master/PSD.png?raw=true)
+
+This is then converted to dB and plotted against frequency for each site with the 4 different weather patterns.
+
+For the second portion the Spectrograms are created, analyzed and compared with the Wenz curve shown below:
+
+![](https://github.com/Branth1/Project4/blob/master/Wenz%20curve.png?raw=true)
+
 
 **Initial Data Analysis**
 
-Note: For the following graphs, a screen shot is shown. To view the interactive map please visit the link to the colab page above. In all maps, the magnitude of earthquake is referenced by the size of the marker.
+Note: For the following graphs, additional data sets can be tested utilizing the code found above and the OOI website.
 
-**Bulk Data Scatter Plot**
+**Oregon Shelf Cabled Benthic Experiment Package**
 
-![](https://github.com/Branth1/Project3/blob/master/Bulk%20Scatter.png?raw=true)
+![](https://github.com/Branth1/Project4/blob/master/Oregon%20Shelf.png?raw=true)
 
-**Bulk Data Map**
+**Oregon Offshore Cabled Benthic Experiment Package**
 
-![](https://github.com/Branth1/Project3/blob/master/Bulk%20Map.png?raw=true)
+![](https://github.com/Branth1/Project4/blob/master/Oregon%20Offshore.png?raw=true)
 
 **Interactive Map**
 
@@ -123,3 +128,6 @@ https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22%3A%221583878977292%22
 
 Project2c
 https://github.com/Branth1/Project2
+
+Wenz Curve
+https://dosits.org/science/sounds-in-the-sea/what-are-common-underwater-sounds/
