@@ -98,11 +98,11 @@ Note: For the following graphs, the specific days and time being analyzed can be
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
 
-* Looking at the bulk data we can see that there is quite a bit of activity consistently throughout the past 10 years. Looking at the map gives a sense of the plate boundaries that can be found near the pacific coast. Most of the data is seen along the plate boundaries for the Juan De Fuca Plate, Pacific Plate, Gorda Plate, and North American Plate. 
+* When looking at the graphs of weather patterns, it can be seen that the wind and rain raise the PSD throughout the frequency range. The wind appears to create more drastic spikes in energy than rain. However, the rain still causing an overall energy increase when compared to no wind and no rain. 
 
-* Comparing all of these data points we find that the range of data is from a magnitude 2.5 up to maximum 7.9. The average over the ten-year period is a magnitude 3.07.
+* It seems that wind has the highest impact instantaneous impact on the energy at each location. However, when looking at the Oregon Shelf we can see that through the entire frequency range, the rain raises the mean above both the no wind no rain case and the wind no rain case. Although, this is not as prominent in the Oregon Offshore situation. 
 
-* In the map of April 2015 most of the data is seen to be along the North American Plate fault line that runs through California. The average for this time is at 3.05 and the maximum is a 6.2. The level of activity is quite high with about 100 data points recorded during this period. At this time there was one of the worst earthquakes we have seen in recent years. April 25, 2015, Nepal experienced a magnitude 7.8 earthquake that took the lives of nearly 9,000 people. The aftershocks and effects of this earthquake are visible through the seismic waves being recorded in the map shown. 
+* One of the main reasons we see different SPD levels between the two sites would have to do with location. It is important to note that the Oregon Shelf site has a depth of 80m while the Oregon Offshore site has a depth of 580m. Although, there may be some inaccuracies in the data as previously discussed, we can clearly see that the Oregon Shelf site ranges for PSD are higher in all cases.
 
 * Next, the area of highest interest is focused on the transform and divergent boundaries seen just off the coast. In this image around the Juan De Fuca Plate, the transform boundaries are seen running horizontally along the map and the divergent boundary can be seen running vertically at about -127.5 degrees. This map combined with the interactive map allows us to look for any possible trends between magnitude and boundary type. Upon closer review it begins to look like there is more activity along the transform boundaries over time and typically a larger magnitude.
 
