@@ -73,7 +73,7 @@ For the second portion the Spectrograms are created, analyzed and compared with 
 
 **Initial Data Analysis**
 
-Note: For the following graphs, additional data sets can be tested utilizing the code found above and the OOI website.
+Note: For the following graphs, the specific days and time being analyzed can be found and additional data sets can be tested utilizing the code found above and the OOI website.
 
 **Oregon Shelf Cabled Benthic Experiment Package**
 
