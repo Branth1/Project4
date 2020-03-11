@@ -93,7 +93,7 @@ Note: For the following graphs, the specific days and time being analyzed can be
 
 **Earthquake Spectrogram**
 
-![](https://github.com/Branth1/Project4/blob/master/Earthquake2.png?raw=true)
+![](https://github.com/Branth1/Project4/blob/master/EQF.png?raw=true)
 
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
