@@ -6,32 +6,47 @@ GitHub Link:
 https://github.com/Branth1/Project4
 ## Description
 
-This is a study of the data collected by the United States Geological Survey group (USGS) from January 01, 2010 through February 22, 2020. All seismic data being observed has been filtered with a minimum magnitude of 2.5. 
+This is a study of some Hydrophone data collected by the Ocean Observatory Initiative (OOI). 
 
-The USGS collects a wide range of data on earthquakes, faults and crustal deformation to increase our understanding of earthquake source processes, occurrence, and effects; and synthesize this knowledge into probabilistic seismic hazard assessments, aftershock forecasts, and ground-shaking scenarios for anticipated major earthquakes.
+The OOI is a major research equipment and facilities construction project funded by the National Science Foundation. It consists of seven arrays of sensors located across the North and South Atlantic and Pacific, including one cabled, two coastal, and four global arrays.
 
-The data sets being studied and compared are the magnitudes compared to time and location. The following analysis will look at the data from first a wide range Pacific Ocean view coordinate with a coordinate window:
+The data sets being studied and compared below will focus on Hydrophone data collected from:
 
-longitude range (-152.93 to -115.66) and latitude range (33.45 to 56.47).
+Oregon Shelf Cabled Benthic Experiment Package
 
-This is followed by a focus on the affects measured in April 2015 and concluded with a focus on the divergent and transform tendencies as seen around the Juan De Fuca Plate. This coordinate window is:
+Oregon Offshore Cabled Benthic Experiment Package
 
-longitude range (-135 to -115) and latitude range (40 to 55).
+Axial Base Seafloor
 
-For a closer look at the work being conducted by the USGS or for further information, their website can be found in the reference section below.
+Oregon Slope Base Seafloor
+
+For the first section we will look at the Oregon Shelf and Oregon Offshore in which we will compare the Power Spectral Density to frequency in four different weather conditions.
+
+        1-No Wind and No Rain
+
+        2-Wind and No Rain
+
+        3-Rain and No Wind
+        
+        4-Wind and Rain
+
+After this, a Spectrogram is created for 3 additional data sets.
+
+First is an attempt to capture Airgun frequency on the Axial Base Seafloor. Second is an attempt to capture Marine Mammal Vocalizations in the Oregon Slope Base Seafloor and finally an earthquake recorded by the Oregon Shelf Cabled Benthic Experiment Package.
+
 ## Background
 
 **The questions we are looking to solve are as follows:**
 
-        1-Across what geographic area are we able to observe earthquake data in the map?
+        1-What is the effect of wind and rain on underwater noise?
 
-        2-Why are most of the earthquakes in that area?
+        2-Which one has the highest impact? Rain or Wind?
 
-        3-What is the range and magnitude of the earthquake size in this area?
+        3-What are the main reasons for observing different spectral levels in Oregon shelf compared to Oregon offshore?
 
-        4-Where are earthquakes located in April 2015 and what event can be linked to these? 
+        4-Compare the three bandwidths of the signals recorded in the Spectrograms. 
 
-        5-What patterns are observed in magnitude and location over time for a transform and divergent boundary region?
+        5-Are they consistent with what is shown in the Wenz curve?
 
 **The Data used for analysis is:**
 
