@@ -83,23 +83,17 @@ Note: For the following graphs, additional data sets can be tested utilizing the
 
 ![](https://github.com/Branth1/Project4/blob/master/Oregon%20Offshore.png?raw=true)
 
-**Interactive Map**
+**Airgun Spectrogram**
 
-Note: In the live version, the years visible can be filtered by clicking on the legend. Hovering over the indicator will display the coordinates, date and magnitude.
+![](https://github.com/Branth1/Project4/blob/master/Airgun.png?raw=true)
 
-![](https://github.com/Branth1/Project3/blob/master/Interactive%20Map.png?raw=true)
+**Marine Mammal Vocalization Spectrogram**
 
-**April 2015 Map**
+![](https://github.com/Branth1/Project4/blob/master/Marine%20Mammals.png?raw=true)
 
-![](https://github.com/Branth1/Project3/blob/master/April%202015.png?raw=true)
+**Earthquake Spectrogram**
 
-**Juan De Fuca Plate Scatter Plot**
-
-![](https://github.com/Branth1/Project3/blob/master/Juan%20De%20Fuca%20Scatter.png?raw=true)
-
-**Juan De Fuca Plate Map Plot**
-
-![](https://github.com/Branth1/Project3/blob/master/Juan%20Map.png?raw=true)
+![](https://github.com/Branth1/Project4/blob/master/Earthquake.png?raw=true)
 
 ## Conclusions
 From the analysis conducted, the following conclusions were made:
