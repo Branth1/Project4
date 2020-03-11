@@ -32,7 +32,7 @@ For the first section we will look at the Oregon Shelf and Oregon Offshore in wh
 
 After this, a Spectrogram is created for 3 additional data sets.
 
-First is an attempt to capture Airgun frequency on the Axial Base Seafloor. Second is an attempt to capture Marine Mammal Vocalizations in the Oregon Slope Base Seafloor and finally an earthquake recorded by the Oregon Shelf Cabled Benthic Experiment Package.
+First is an attempt to capture Air gun frequency on the Axial Base Seafloor. Second is an attempt to capture Marine Mammal Vocalizations in the Oregon Slope Base Seafloor and finally an earthquake recorded by the Oregon Shelf Cabled Benthic Experiment Package.
 
 ## Background
 
@@ -52,9 +52,9 @@ First is an attempt to capture Airgun frequency on the Axial Base Seafloor. Seco
 
 To view the individual data sets please follow the link above to the colab code. All data links are located in their corresponding sections.
 
-Note: To determine the time periods of wind and or rain, Project2 was used. The link to this project is found under references below. For each of the 4 different weather requirements, a minimum or 3 consistent hours was first identified. Then a 5 minute window near the middle of the data set was selected for hydrophone data analysis. There may be some discrepencies due to the method of selecting these time windows. Since the previous project had hour time intervals, it is possible that the weather conditions needed are not present at the time of analysis.
+Note: To determine the time periods of wind and or rain, Project2 was used. The link to this project is found under references below. For each of the 4 different weather requirements, a minimum or 3 consistent hours was first identified. Then a 5-minute window near the middle of the data set was selected for hydrophone data analysis. There may be some discrepancies due to the method of selecting these time windows. Since the previous project had hour time intervals, it is possible that the weather conditions needed are not present at the time of analysis.
 
-Additionaly, the earthquake data used to determine the time window was found from the USGS website. The link is located in references below.
+Additionally, the earthquake data used to determine the time window was found from the USGS website. The link is located in references below.
 
 For additional information on the analysis used please see the link to the code above.
 
@@ -83,7 +83,7 @@ Note: For the following graphs, the specific days and time being analyzed can be
 
 ![](https://github.com/Branth1/Project4/blob/master/Oregon%20Offshore.png?raw=true)
 
-**Airgun Spectrogram**
+**Air gun Spectrogram**
 
 ![](https://github.com/Branth1/Project4/blob/master/Airgun.png?raw=true)
 
@@ -104,16 +104,16 @@ From the analysis conducted, the following conclusions were made:
 
 * One of the main reasons we see different SPD levels between the two sites would have to do with location. It is important to note that the Oregon Shelf site has a depth of 80m while the Oregon Offshore site has a depth of 580m. Although, there may be some inaccuracies in the data as previously discussed, we can clearly see that the Oregon Shelf site ranges for PSD are higher in all cases.
 
-* When comparing the spectrogram's, the airgun was rather tricky to locate. However, it appears to be visible in the image above with a Bandwidth of about 25-75 Hz. The marine mammal vocalization appears a bit higher with a bandwidth of just under 500 and up to about 3500 Hz. The earthquake was attempted to be captured at the time of initiation. According to USGS, a magnitude 4.7 earhquake hit off the Oregon Coast on 4/10/19 at 14:11:31. Notice, the earthquake is visible in the end of the recording, However, since it was such a large ammount of data, the clarity was reduced to increase speed of procesing. In it we can see the increasing bandwidth with the range of 0-100 Hz and a little more. The graphs shown have had the ranges adjusted to improve clarity. 
+* When comparing the spectrogram's, the air gun was rather tricky to locate. However, it appears to be visible in the image above with a Bandwidth of about 25-75 Hz. The marine mammal vocalization appears a bit higher with a bandwidth of just under 500 and up to about 3500 Hz. The earthquake was attempted to be captured at the time of initiation. According to USGS, a magnitude 4.7 earthquake hit off the Oregon Coast on 4/10/19 at 14:11:31. Notice, the earthquake is visible in the end of the recording. A longer data file was used to improve the clarity of changes. However, since it was such a large amount of data, the detail was reduced to increase speed of processing. In it we can see the increasing bandwidth with the range of 0-100 Hz and a little more. The graphs shown have had the ranges adjusted to improve clarity. 
 
-* When comparing these values to the Wenz curve shown above, they seem to fit the expected curve and applicable ranges. We can see that earthquakes are expected between 0-100 Hz, marine mammal vocalization is in the higher ranges up into the multiple kHz, and airguns are expected to fit the explosion range of 0-100 Hz to try and reduce impact on marine mammal environment. Although they have higher frequencies which must be addresed, that is beyond the scope of this analysis. Additional information on this topic can be found in references. In addition, we can see that this curve appears to hold true for the weather patterns as well. Wind having the higher frequency and greater spectral density than rain, where rain depends on the sea state.
+* When comparing these values to the Wenz curve shown above, they seem to fit the expected curve and applicable ranges. We can see that earthquakes are expected between 0-100 Hz, marine mammal vocalization is in the higher ranges up into the multiple kHz, and air guns are expected to fit the explosion range of 0-100 Hz to try and reduce impact on marine mammal environment. Although they have higher frequencies which must be addressed, that is beyond the scope of this analysis. Additional information on this topic can be found in references. In addition, we can see that this curve appears to hold true for the weather patterns as well. Wind having the higher frequency and greater spectral density than rain, where rain depends on the sea state.
 
 For further information on OOI, the work that they do and to view additional datasets for analysis, please visit the links below. 
 
 
 ## References
 
-Airgun Info
+Air gun Info
 https://pangea.stanford.edu/~edunham/publications/Watson_etal_airguns_G19.pdf
 
 Data Collection OOI
